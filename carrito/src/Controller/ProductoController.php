@@ -1,4 +1,3 @@
-// src/Controller/ProductoController.php
 <?php
 namespace App\Controller;
 
@@ -16,5 +15,4 @@ class ProductoController extends AbstractController
         return $this->render('producto/lista.html.twig');
     }
 }
-
 
